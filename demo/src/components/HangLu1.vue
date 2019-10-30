@@ -105,7 +105,7 @@ export default {
                onSort: function (evt) {  //发生排序发生该事件
                     console.log('onSort.foo:', [evt.item, evt.from]);
                },
-               onEnd: function (evt) { //拖拽完毕之后发生该事件
+               onEnd: function (evt) { //拖拽完毕之后发生次事件
                     console.log('onEnd.foo:', [evt.item, evt.from]);
                }
           });
