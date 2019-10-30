@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html lang="zh-cn">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <title>拖拽排序</title>
+     <style>
+          .sortable-ghost {
+               opacity: 0.4;
+               background-color: #F4E2C9;
+          }
+
+          p {
+               width:10px;
+               height:10px;
+               float:left;
+
+          }
+     </style>
+</head>
+<!--      <link href="app.css" rel="stylesheet" type="text/css"/> 
+      -->
+<!-- script src="./Sortable.js"></script> -->
+<script src="https://cdn.bootcss.com/Sortable/1.8.3/Sortable.js"></script>
+
+<body>
+     <div id="foo" >
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>5</p>
+          <p>6</p>
+          <p>7</p>
+          <p>8</p>
+     </div>
+     <script>
+          Sortable.create(document.getElementById('foo'), {
+               animation: 150, //动画参数
+               onAdd: function (evt) {   //拖拽时候添加有新的节点的时候发生该事件
+                    console.log('onAdd.foo:', [evt.item, evt.from]);
+               },
+               onUpdate: function (evt) {  //拖拽更新节点位置发生该事件
+                    console.log('onUpdate.foo:', [evt.item, evt.from]);
+               },
+               onRemove: function (evt) {   //删除拖拽节点的时候促发该事件
+                    console.log('onRemove.foo:', [evt.item, evt.from]);
+               },
+               onStart: function (evt) {  //开始拖拽出发该函数
+                    console.log('onStart.foo:', [evt.item, evt.from]);
+               },
+               onSort: function (evt) {  //发生排序发生该事件
+                    console.log('onSort.foo:', [evt.item, evt.from]);
+               },
+               onEnd: function (evt) { //拖拽完毕之后发生该事件
+                    console.log('onEnd.foo:', [evt.item, evt.from]);
+               }
+          });
+     </script>
+</body>
+
+</html>

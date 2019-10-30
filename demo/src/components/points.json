@@ -1,0 +1,38 @@
+[
+  {
+    "NAME": "GPS",
+    "TYPE": 5,
+    "LONGITUDE": 116.6088,
+    "LATITUDE": 40.0276
+  },
+  {
+    "NAME": "东营",
+    "TYPE": 2,
+    "LONGITUDE": 118.5864,
+    "LATITUDE": 37.5271
+  },
+  {
+    "NAME": "P02",
+    "TYPE": 4,
+    "LONGITUDE": 118.6743,
+    "LATITUDE": 34.7596
+  },
+  {
+    "NAME": "GPS",
+    "TYPE": 5,
+    "LONGITUDE": 117.0043,
+    "LATITUDE": 32.1198
+  },
+  {
+    "NAME": "沙市",
+    "TYPE": 1,
+    "LONGITUDE": 112.434,
+    "LATITUDE": 30.4297
+  },
+  {
+    "NAME": "湖光",
+    "TYPE": 3,
+    "LONGITUDE": 110.2807,
+    "LATITUDE": 21.3098
+  }
+]
