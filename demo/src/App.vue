@@ -314,6 +314,7 @@ export default {
 }
 
 p{
+  
   color: #fff;
   font-size: 6px;
   line-height: 12px;
