@@ -65,13 +65,13 @@
 
 
 function $(id){
-			return document.getElementById(id);
-		};
+  return document.getElementById(id);
+};
 window.onload=function(){
-      $("div1").style.display="block";
-      $("div2").style.display="none";
-			$("div3").style.display="none";
-    }; 
+  $("div1").style.display="block";
+  $("div2").style.display="none";
+  $("div3").style.display="none";
+}; 
   
 
 
@@ -93,22 +93,19 @@ export default {
   name: 'app',
   data () {
     return {
-
-     
+  
     }
   },
-  
-  
+    
   methods:{
     display(flag){
       if(flag=='1'){
           $("foo").style.display="none";
-          $("clear").style.display="none";
-          
+          $("clear").style.display="none";    
       }
-    }
-    
+    }    
   },
+
   components:{
     FeiJi,
     ZhenKongsu,
@@ -130,7 +127,6 @@ export default {
 <style>
 #app{
   
-    
 	position:absolute;
   top:0px;
   left: 50%; 
@@ -146,19 +142,14 @@ export default {
 .div11{
   
   padding:2px 2px 2px 2px;
-  
   border-radius:0px;  
-
   width:55px;
   height:79px;
-  
   float:left;
 
 }
 .div12{
-  
-  
-  
+ 
   background:#000;
   border-top: 2px solid #696969 ;
   width:282px;
@@ -167,6 +158,7 @@ export default {
   float:left;
 
 }
+
 #clear{
   padding:0px;
   position: absolute;
@@ -185,12 +177,9 @@ export default {
 .div13{
   
   padding:2px 2px 2px 2px ;
-  
   border-radius:1px;  
-
   width:55px;
   height:79px;
-  
   float:left;
 
 }
@@ -209,7 +198,8 @@ export default {
   margin-top:1px;
   width:400px;
   height:13px;
-
+  color:#fff;
+  
   
 }
 
@@ -219,65 +209,63 @@ export default {
   height:13px;
   line-height:13px;
   font-size:6px;
-  color:#fff;
-  background:#000;
   text-align:center;
   float:left;
+  background:#000;
 }
+
 .div212{
   margin-right:1px;
   width:35px;
   height:13px;
   line-height:13px;
   font-size:6px;
-  color:#fff;
-  background:#000;
   text-align:center;
   float:left;
+  background:#000;
 }
+
 .div213{
   margin-right:1px;
   width:89px;
   height:13px;
   line-height:13px;
   font-size:6px;
-  color:#fff;
-  background:#000;
   text-align:center;
   float:left;
+  background:#000;
 }
+
 .div214{
   margin-right:1px;
   width:89px;
   height:13px;
   line-height:13px;
   font-size:6px;
-  color:#fff;
-  background:#000;
   text-align:center;
   float:left;
+  background:#000;
 }
+
 .div215{
   margin-right:1px;
   width:58px;
   height:13px;
   line-height:13px;
   font-size:6px;
-  color:#fff;
-  background:#000;
   text-align:center;
   float:left;
+  background:#000;
 }
+
 .div216{
-  
   width:35px;
   height:13px;
   line-height:13px;
   font-size:6px;
-  color:#fff;
-  background:#000;
   text-align:center;
   float:left;
+  background:#000;
 }
 
 .div3{
@@ -289,22 +277,17 @@ export default {
  
 }
 .div31{
- 
+
   width:315px;
   height:81px;
   float: left;
-  
-
 
 }
 .div32{
   
   width:85px;
-  height:81px;
- 
+  height:81px; 
   float:left;
-  
-
 
 }
 .div321{
@@ -320,13 +303,16 @@ export default {
 }
 
 .div322{
+
   padding: 3px 5px 3px 5px;
   width:75px;
   height:59px;
   line-height: 59px;
   background:#000;
   float: left;
+
 }
+
 p{
   color: #fff;
   font-size: 6px;
@@ -335,11 +321,11 @@ p{
 
 
 .divBottom{
+
   position:absolute;
   margin:82px 0px 0px 0px;
   top:0px;
   border-radius:1px;  
-
   width:400px;
   height:24px;
   background:#000000;
