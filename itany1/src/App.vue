@@ -39,7 +39,7 @@ export default {
       font-size: 14px;
       display: block;
       &.active {
-        color: #ff7300;
+        color: #ff7301;
       }
     }
   }
