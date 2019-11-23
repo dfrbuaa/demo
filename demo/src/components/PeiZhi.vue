@@ -1,12 +1,7 @@
 <template>
     
-        <el-button @click="show('1')">配置</el-button>
-        
-        
-
-
+ <el-button @click="show('1')">配置</el-button>
    
-    
 </template>
 
 <script>
@@ -26,14 +21,14 @@ export default {
 			if(flag=="1"){
 				$("div1").style.display="block";
 				$("div2").style.display="none";
-                $("div3").style.display="none";
+        $("div3").style.display="none";
 				
 			}else{
-                $("div1").style.display="block";
+        $("div1").style.display="block";
 				$("div3").style.display="none";
-                $("div2").style.display="none";
+        $("div2").style.display="none";
 				
-		}
+		  }
     },
     
     
@@ -42,23 +37,20 @@ export default {
 }
 </script>
 <style scoped> 
-    button{
-        margin:0px;
-        padding:0px;
-        border: 0px;
-        width:30px;
-        height:24px;
-        background-color:#000;
-        color:#fff;
-        font-size:8px;
-        float:right;
-        
-
-    
-    }
-    .el-button:focus,.el-button:hover {
+  button{
+    margin:0px;
+    padding:0px;
+    border: 0px;
+    width:30px;
+    height:24px;
+    background-color:#000;
+    color:#fff;
+    font-size:8px;
+    float:right;
+ 
+  }
+  .el-button:focus,.el-button:hover {
     color: #ffffff; 
-  
     background-color:#696969;
 }
 
